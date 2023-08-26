@@ -1,11 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projet Pedagogique UL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Hello world</h1>
+<body class="bg-[#f9f9f9] ">
+    <div class="w-screen font-sans">
+        
+        <header class="bg-[#854207] drop-shadow-lg h-20 flex items-center">
+            <div class="w-11/12 m-auto flex justify-between items-center">
+                <div class="logo">
+                    <a href="#" >
+                        <img class="w-40 drop-shadow-lg" src="./images/logo_ul.png" alt="logo universite de labe">
+                    </a>
+                </div>
+                <div class="flex items-center transition duration-150 ease-out hover:ease-in">
+                    <a href="#" class="mr-2 w-40 transition ease-in-out delay-150 hover:-translate-y-1 text-center border border-[#f9c301] p-3 text-[#f9c301] hover:bg-[#f9c301] hover:text-[#854207] rounded text-lg font-semibold">Se connecter</a>
+                    <a href="#" class="mr-2 w-40 text-center border border-[#f9c301] p-3 bg-[#f9c301] text-[#854207] rounded text-lg font-semibold">S'inscrire</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="relative w-11/12 m-auto h-[30rem] mb-8 ">
+            <div class="absolute text-white flex flex-col p-5 bg-slate-600/40 w-full h-full text-5xl md:text-7xl leading-normal md:leading-snug font-semibold">
+                <p>Une bonne&nbsp;</span> <span class="text-[#f9c301]">&eacute;ducation&nbsp;</span></p>
+                <p>est la base d'un</p>
+                <p>avenir meilleur</p>
+            </div>            
+            <img class="w-full h-full object-cover" src="./images/student.jpg" alt="logo universite de labe">
+        </section>
+
+        <main class=" ">
+            <section class="cours m-auto w-11/12 my-5">
+                <div class="categories-cours mt-8">
+                    <!-- Categorie informatique -->
+                    <h1 class="text-3xl font-bold uppercase">Informatique</h1>
+                    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 mt-4">                       
+                        <div class="card h-[22rem] cursor-pointer shadow w-full md:w-2/2 rounded bg-yellow-400/25 transition ease-in-out hover:scale-105 hover:shadow-xl">
+                            <div class="card-body w-full h-48">
+                                <div class="card-img h-48 overflow-hidden w-full">
+                                    <img class="w-full h-full object-cover overflow-hidden" src="./images/java.png" alt="poster du cours">
+                                </div>
+                                <div class="m-3 sm:text-base">
+                                    <h3 class="text-black-500 text-base md:text-base font-bold">Les cours sont organisés par cat&eacute;gorie</h3>
+                                    <p class="text-gray-600">M. Alpha Barry</p>
+                                    <p>Licence: 2</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-[22rem] cursor-pointer shadow rounded md:w-2/2 bg-yellow-400/25 transition ease-in-out hover:scale-105 hover:shadow-xl">
+                            <div class="card-body w-full h-48">
+                                <div class="card-img h-48 overflow-hidden w-full">
+                                    <img class="w-full h-full object-cover overflow-hidden" src="./images/python.webp" alt="poster du cours">
+                                </div>
+                                <div class="m-3 sm:text-base">
+                                    <h3 class="text-black-500 text-base md:text-base font-bold">Les cours sont organisés par cat&eacute;gorie</h3>
+                                    <p class="text-gray-600">M. Alpha Barry</p>
+                                    <p>Licence: 2</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-[22rem] cursor-pointer shadow rounded md:w-2/2 bg-yellow-400/25 transition ease-in-out hover:scale-105 hover:shadow-xl">
+                            <div class="card-body w-full ">
+                                <div class="card-img h-48 overflow-hidden w-full">
+                                    <img class="w-full h-full object-cover overflow-hidden" src="./images/2809263.png" alt="poster du cours">
+                                </div>
+                                <div class="m-3 sm:text-base">
+                                    <h3 class="text-black-500 text-base md:text-base break-all font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolores doloribus </h3>
+                                    <p class="text-gray-600">M. Alpha Barry</p>
+                                    <p>Licence: 2</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-[22rem] cursor-pointer shadow rounded md:w-2/2 bg-yellow-400/25 transition ease-in-out hover:scale-105 hover:shadow-xl">
+                            <div class="card-body w-full h-48">
+                                <div class="card-img h-48 overflow-hidden w-full">
+                                    <img class="w-full h-full object-cover overflow-hidden" src="./images/codage-programmation.png" alt="poster du cours">
+                                </div>
+                                <div class="m-3 sm:text-base">
+                                    <h3 class="text-black-500 text-base md:text-base font-bold">Les cours sont organisés par cat&eacute;gorie</h3>
+                                    <p class="text-gray-600">M. Alpha Barry</p>
+                                    <p>Licence: 2</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Categorie biologie -->
+                <div class="categories-cours mt-8">
+                    <h1 class="text-3xl font-bold uppercase">Biologie</h1>
+                    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 mt-4">                       
+                        <div class="card h-[22rem] cursor-pointer shadow w-full md:w-2/2 rounded bg-yellow-400/25 transition ease-in-out hover:scale-105 hover:shadow-xl">
+                            <div class="card-body w-full h-48">
+                                <div class="card-img h-48 overflow-hidden w-full">
+                                    <img class="w-full h-full object-cover overflow-hidden" src="./images/java.png" alt="poster du cours">
+                                </div>
+                                <div class="m-3 sm:text-base">
+                                    <h3 class="text-black-500 text-base md:text-base font-bold">Les cours sont organisés par cat&eacute;gorie</h3>
+                                    <p class="text-gray-600">M. Alpha Barry</p>
+                                    <p>Licence: 2</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-[22rem] cursor-pointer shadow rounded md:w-2/2 bg-yellow-400/25 transition ease-in-out hover:scale-105 hover:shadow-xl">
+                            <div class="card-body w-full h-48">
+                                <div class="card-img h-48 overflow-hidden w-full">
+                                    <img class="w-full h-full object-cover overflow-hidden" src="./images/java.png" alt="poster du cours">
+                                </div>
+                                <div class="m-3 sm:text-base">
+                                    <h3 class="text-black-500 text-base md:text-base font-bold">Les cours sont organisés par cat&eacute;gorie</h3>
+                                    <p class="text-gray-600">M. Alpha Barry</p>
+                                    <p>Licence: 2</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-[22rem] cursor-pointer shadow rounded md:w-2/2 bg-yellow-400/25 transition ease-in-out hover:scale-105 hover:shadow-xl">
+                            <div class="card-body w-full ">
+                                <div class="card-img h-48 overflow-hidden w-full">
+                                    <img class="w-full h-full object-cover overflow-hidden" src="./images/java.png" alt="poster du cours">
+                                </div>
+                                <div class="m-3 sm:text-base">
+                                    <h3 class="text-black-500 text-base md:text-base break-all font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolores doloribus </h3>
+                                    <p class="text-gray-600">M. Alpha Barry</p>
+                                    <p>Licence: 2</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card h-[22rem] cursor-pointer shadow rounded md:w-2/2 bg-yellow-400/25 transition ease-in-out hover:scale-105 hover:shadow-xl">
+                            <div class="card-body w-full h-48">
+                                <div class="card-img h-48 overflow-hidden w-full">
+                                    <img class="w-full h-full object-cover overflow-hidden" src="./images/java.png" alt="poster du cours">
+                                </div>
+                                <div class="m-3 sm:text-base">
+                                    <h3 class="text-black-500 text-base md:text-base font-bold">Les cours sont organisés par cat&eacute;gorie</h3>
+                                    <p class="text-gray-600">M. Alpha Barry</p>
+                                    <p>Licence: 2</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="authentication mt-28 p-14 bg-[#854207] w-full h-auto grid grid-cols-1 gap-x-8 lg:grid-cols-2 sm:gap-y-11">
+                <div class="imgage w-full h-full">
+                    <img src="./images/groupe-etude.jpg" class="overflow-hidden w-full h-full object-contain" alt="groupe etudiant">
+                </div>
+                <div class="form mt-5 md:mt-0">
+                    <h1 class="text-left text-2xl md:text-6xl mb-1 md:mb-8  font-bold break-words text-[#f9f9f9]">Connectez-vous pour plus de contenu</h1>
+                    <form action="#" class="">
+                        <div class="email">
+                            <label for="email" class="block text-lg font-semibold text-[#f9f9f9] mb-2">Adresse e-mail</label>
+                            <input type="email" placeholder="xyz@exemple.com" class="w-full p-2 h-16 rounded border focus:outline outline-yellow-600" name="email" id="email">
+                        </div>
+                        <div class="password mt-5">
+                            <label for="password" class="block text-lg font-semibold text-[#f9f9f9] mb-2">Mot de passe</label>
+                            <input type="password" placeholder="votre mot de passe" class="w-full outline-2 p-2 h-16 rounded border
+                                border-[#f9c301] focus:outline outline-yellow-600" 
+                                name="password" id="password"
+                             >
+                        </div>
+                        <div class="button mt-5">
+                            <button type="button" class="w-full rounded-lg focus:outline-none 
+                                focus:ring ring-yellow-600 hover:bg-yellow-400 cursor-pointer 
+                                text-2xl text-[#854207] bg-yellow-500 p-2 h-16 font-bold
+                                transition ease-in-out duration-150 hover:-translate-y-2"
+                            >Se connecter</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Partenaires -->
+            <section class="partenaires h-52 flex justify-evenly items-center  bg-gray-200 p-4 mt-16 flex-shrink">
+                <div class="logo-partenaires w-40 transition ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer">
+                    <img src="images/univ_kindia.png" class="w-full h-full overflow-hidden opacity-75 hover:opacity-100 rounded" alt="logo universite">
+                </div>
+                <div class="logo-partenaires w-40 transition ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer">
+                    <img src="images/univ_nzerekore.jpeg" class="w-full h-full overflow-hidden opacity-75 hover:opacity-100 rounded" alt="logo universite">
+                </div>
+                <div class="logo-partenaires w-40 transition ease-in-out hover:scale-110 hover:shadow-lg cursor-pointer">
+                    <img src="images/univ_gamal.png" class="w-full h-full overflow-hidden opacity-75 hover:opacity-100 rounded" alt="logo universite">
+                </div>
+            </section>
+
+            <footer class="footer h-64 mt-64 shadow-2xl shadow-gray-600 relative">
+                <div class="flex justify-between justify-self-center items-center mx-2 absolute bottom-2 w-11/12">
+                    <div class="logo shadow-md bg-black/70">
+                        <a href="#" >
+                            <img class="w-40 drop-shadow-lg" src="./images/logo_ul.png" alt="logo universite de labe">
+                        </a>
+                    </div>
+                    <div class="text">
+                        <p>&copy; 2023 Universite de Labe</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        
+    </div>
+    
 </body>
 </html>
